@@ -1,0 +1,31 @@
+{
+	"name": "@mage2pro/create-pwa",
+	"version": "0.0.1",
+	"description": "Create a PWA Studio app with a single command.",
+	"author": "Dmitry Fedyuk",
+	"dependencies": {
+		"@magento/pwa-buildpack": "~7.0.0",
+		"chalk": "^2.4.2",
+		"change-case": "^3.1.0",
+		"execa": "^1.0.0",
+		"git-user-info": "^1.0.1",
+		"inquirer": "^6.3.1",
+		"is-invalid-path": "^1.0.2",
+		"is-valid-npm-name": "^0.0.4",
+		"webpack": "^4.29.5"
+	},
+	"bin": "./bin/create-pwa",
+	"bugs": {"url": "https://github.com/mage2pro/create-pwa/issues"},
+	"homepage": "https://github.com/mage2pro/create-pwa",
+	"main": "./lib/index.js",
+	"publishConfig": {"access": "public"},
+	"keywords": [
+		"create-pwa",
+		"create-pwa-app",
+		"magento",
+		"pwa",
+		"pwa-studio"
+	],
+	"license": "MIT",
+	"repository": "github:mage2pro/create-pwa"
+}
