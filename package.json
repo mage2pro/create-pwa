@@ -1,6 +1,6 @@
 {
 	"name": "@mage2pro/create-pwa",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Create a PWA Studio app with a single command.",
 	"author": "Dmitry Fedyuk",
 	"dependencies": {
